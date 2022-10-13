@@ -3,6 +3,6 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 
 
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+render(<App />);
+const linkElement = screen.getByText(/learn react/i);
 
